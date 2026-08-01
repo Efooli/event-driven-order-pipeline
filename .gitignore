@@ -1,0 +1,17 @@
+# Terraform
+   *.tfstate
+   *.tfstate.*
+   .terraform/
+   .terraform.lock.hcl
+
+   # Env / secrets
+   .env
+   *.pem
+
+   # Dependencies
+   node_modules/
+   __pycache__/
+   *.pyc
+
+   # OS
+   .DS_Store
