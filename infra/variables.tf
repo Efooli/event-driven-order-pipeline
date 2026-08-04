@@ -9,3 +9,8 @@ variable "project_name" {
   type        = string
   default     = "order-pipeline"
 }
+
+variable "alert_email" {
+  description = "Email address to receive operational alerts"
+  type        = string
+}
