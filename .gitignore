@@ -2,6 +2,7 @@
 *.tfstate
 *.tfstate.*
 .terraform/
+build/
 
 # Env / secrets
 .env
